@@ -7,7 +7,7 @@ import cx from "classnames"
 
 const Cards = ({ data }) => {
   if (!data.confirmed) {
-    return "Loading";
+    return 'Loading...';
   }
 
   return (
